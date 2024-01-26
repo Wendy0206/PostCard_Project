@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>PostCard</title>
+    <link rel="stylesheet" href="./Style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Sofia"
+    />
+  </head>
+
+  <body>
+    <div id="parentbox" class="box">
+      <div id="headdiv">
+        <div>
+          <h1 id="postcarddiv">My Postcard</h1>
+        </div>
+        <!--postcarddiv-->
+        <div id="Imagediv">
+          <img src="./Assets/4geeks.png" alt="A 4geeks academy Logo" />
+        </div>
+        <!--imagediv-->
+      </div>
+      <!--Headdiv-->
+
+      <div id="bodydiv">
+        <div id="textdiv">
+          <p>
+            Look how awesome! This is a postcard that i created using HTML5 and
+            CSS3 during my 4Geeks Acamedy course!
+          </p>
+
+          <p>This is so cool, can't wait to start doing more stuff!</p>
+        </div>
+
+        <div id="inputdiv">
+          <input type="name" id="idemail" placeholder="Full name" />
+          <br/><br />
+          <input type="email" id="idemail" placeholder="Example@domain.com" />
+          <br /><br />
+          <input
+            type="text"
+            id="idcomment"
+            placeholder="Leave a comment here"
+          />
+        </div>
+      </div>
+      <!--bodydiv-->
+
+      <div id="buttondiv">
+        <button onclick="openTab()">Send My Postcard</button>
+      </div>
+      <!--buttondiv-->
+    </div>
+    <!--parentbox-->
+  </body>
+  <script>
+    function openTab() {
+      (window.location =
+        "https://giphy.com/gifs/rvappstudios-congrats-congratulations-congratulation-baby-yLD5PKYq7tsQZPZXpn/fullscreen"),
+        "_blank";
+    }
+  </script>
+</html>
